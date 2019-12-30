@@ -29,9 +29,14 @@
     <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="ImplementMethods" />
+  <action id="ReformatCode" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SendEOF" />
   <action id="TagDocumentationNavigation" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.ReformatCommitMessage" />
   <action id="openAssertEqualsDiff" />
 </keymap>
