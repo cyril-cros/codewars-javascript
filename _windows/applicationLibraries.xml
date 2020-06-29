@@ -25,6 +25,11 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="@types/node" type="javaScript">
+      <CLASSES />
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="@types/request" type="javaScript">
       <CLASSES />
       <JAVADOC />
