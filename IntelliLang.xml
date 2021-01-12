@@ -1,0 +1,12 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="Vertica" injector-id="xml">
+      <display-name>button/@click</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("click")).withParent(xmlTag().withLocalName(string().equalTo("button")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="Vue" injector-id="xml">
+      <display-name>input/@v-model</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("v-model")).withParent(xmlTag().withLocalName(string().equalTo("input")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
